@@ -47,4 +47,11 @@
             <!-- Other plugins as needed -->
         </plugins>
     </build>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0vv58v7drum5-artifactory-primary-0-releases</name>
+        <url>https://vjdevops.jfrog.io/artifactory/java-micro-service-libs-release</url>
+    </repository>
+</distributionManagement>
 </project>
