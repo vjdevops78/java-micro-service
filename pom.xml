@@ -39,14 +39,26 @@
     </dependencies>
 
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-            <!-- Other plugins as needed -->
-        </plugins>
-    </build>
+    <plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+            <version>2.3.4.RELEASE</version>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>repackage</goal>
+                    </goals>
+                </execution>
+            </executions>
+            <configuration>
+                <mainClass>com.example.microservice.GreetingServiceApplication</mainClass>
+            </configuration>
+        </plugin>
+        <!-- Other plugins as needed -->
+    </plugins>
+</build>
+
 <distributionManagement>
     <repository>
         <id>central</id>
