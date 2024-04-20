@@ -62,8 +62,8 @@
 <distributionManagement>
     <repository>
         <id>central</id>
-        <name>a0vv58v7drum5-artifactory-primary-0-releases</name>
-        <url>https://vjdevops.jfrog.io/artifactory/java-micro-service-libs-release</url>
+        <name>a0s5ujjtvoszg-artifactory-primary-0-releases</name>
+        <url>https://vjdevopsind.jfrog.io/artifactory/java-microservice-libs-release-local</url>
     </repository>
 </distributionManagement>
 </project>
